@@ -1,0 +1,35 @@
+
+table{
+	border-collapse:collapse;
+}
+
+.cr{
+	font-family: "Tahoma", Verdana, serif;
+	color:#0B0B61;
+	
+		
+}
+
+table#tbHeader,th{
+	font-size:30px;
+	font-family: Courier New;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:center;
+	width:100%;
+}
+
+.cr a{
+	font-size:14px;
+	background-color: #819FF7;
+	color:#0B0B61;	
+	padding: 8px 20px;
+	margin:5px;
+}
+
+.cr td{
+	
+	border-bottom:1px solid #819FF7;
+	padding:10px 10px;
+	
+}

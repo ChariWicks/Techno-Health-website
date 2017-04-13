@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+	<head>
+		<title>Introduction Page</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/HomePageStylingSheet.css">
+		<script>
+			var count = 5; //number of seconds
+			var redirect = "HomePage.php"; //the page which will be displayed after the countdown
+
+			function countDown(){
+				var timer = document.getElementById("timer");
+	
+			if(count > 0){
+				timer.innerHTML = "<font face = 'Calibri'>This page will redirect to Home Page in</font> "+count+"<font face = 'Calibri'> seconds.</font>"; //returns html content
+				count--;
+				setTimeout("countDown()", 1000); //calls countDown() function after 1 second
+			}else{
+			window.location.href = redirect; //change the current url into HomePage.php
+			} 
+			}
+		</script>
+	</head>
+	<body>
+		<h1 class="heading" align="center">Web Technology</br><!--Main heading / Styling - HomePageStylingSheet.css-->
+		<small>Group Course Work</small>
+		</h1>
+        <h2 class = "sub" align = "center">Team Miracle - Group Members</h2><!--Styling - HomePageStylingSheet.css-->
+		<br><br>
+    <!-- Content Table -->
+		<div class = "members-table">
+			<table id = "members" align = "center">
+				<tr> <!--Heading row-->
+					<th class = "title">Title</th>
+					<th class = "full">Full Name</th>
+					<th class = "iit">IIT ID</th>
+					<th class = "uow">UOW ID</th>
+				</tr>
+				<tr>
+					<td class = "titled">Miss.</td>
+					<td class = "full">W.C.M.W. Wickramanayake</td>
+					<td class = "iit">2015020</td>
+					<td class = "uow">15830494</td>
+				</tr>
+				<tr>
+					<td class = "titled">Miss.</td>
+					<td class = "full">Wageesha Ishani</td>
+					<td class = "iit">2015114</td>
+					<td class = "uow">15</td>
+				</tr>
+				<tr>
+					<td class = "titled">Ms.</td>
+					<td class = "full">Sachin Tharindu De Zoysa</td>
+					<td class = "iit">2015188</td>
+					<td class = "uow">1582960</td>
+				</tr>
+				<tr>
+					<td class = "titled">Miss.</td>
+					<td class = "full">P.D.K.R. Gunatilake</td>
+					<td class = "iit">2014271</td>
+					<td class = "uow">1560217</td>
+				</tr>
+				<tr>
+					<td class = "titled">Miss.</td>
+					<td class = "full">U.D.K. Jayasinghe</td>
+					<td class = "iit">2014273</td>
+					<td class = "uow">15</td>
+				</tr>
+		</div>
+		</table>
+
+
+		<div id="timer" align="center"> <!--Calling function to start countdown-->
+		<script type="text/javascript">countDown();
+		</script>
+		</div>
+		
+        <!-- Footer -->
+		
+		</br></br></br></br></br></br></br></br></br>
+        <footer align="center">
+                    Copyright 1999-2016 by Refsnes Data. All Rights Reserved.</br>
+					Last modified date : 15th April 2016</br>
+					Created by : Charitha Wickramanayake - 2015020 - charitha.2015020@iit.ac.lk 
+
+        </footer>
+
+    </div>
+	</body>
+</html>

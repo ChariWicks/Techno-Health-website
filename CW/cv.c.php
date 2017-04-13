@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "css/cv.css">
+	<link rel = "stylesheet" type = "text/css" href = "css/HomePageStylingSheet.css">
+</head>
+<body id="cv">
+
+	<?php include 'header.php';  ?>
+	<h2>CURRICULUM VITAE</h2>
+	<table  border="0" width="800" align="center">
+		<tr>
+			<td id="format">Name: Warnakula Charitha Mendis Wijesiriwardane Wickramanayake</td>
+			<td  rowspan="3" width="100" height="100"><img src="images/cha.jpg" width="100" height="100"></td>
+		</tr>
+		<tr>
+			<td id="format">Date of Birth: 29 - 10 - 1994</td>
+			
+		</tr>
+		<tr>
+			<td id="format">Gender: Female</td>
+			
+		</tr>
+		<tr>
+			<td id="format" colspan="2">Educational Qualifications: G.C.E. Ordinary Level and G.C.E. Advanced Level</td>
+			
+		</tr>
+		<tr>
+			<td>
+			<table border="0" width="800">
+			<tr>
+			<td id="format">Undergraduate Level: B.Eng. in Software Engineering - University of Westminister</td>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td  >A/L</td>
+			<td id="eq">Stream: Bio Science</td>
+			<td id="eq">Year: 2015</td>
+		<tr>
+			<td>Local/London</td>
+			<td id="eq">Results: 2 C s' & 1 B</td>
+		</tr>
+			<td ></td>
+			<td id="eq">Physics: B</td></tr>
+			<tr><td></td><td id="eq">Chemistry: C</td></tr>
+			<tr><td id="format"></td><td >Chemistry: C</td></tr> 
+		</tr>
+		<tr>
+			<td>O/L</td>
+			<td id="eq">Year: 2010</td>
+		<tr>
+			<td id="format">Local/London</td>
+			<td id="eq">9 A s'</br>
+						Buddhism - A</br>
+						Mathematics - A</br>
+						Science & Technology - A</br>
+						History - A</br>
+						English - A</br>
+						Sinhala - A</br>
+						Bussiness & Accounting - A</br>
+						Oriental music - A</br>
+						Information and Communication Technology - A</br></td>
+		</tr>
+			</table></td></tr>
+		<tr>
+			<td id="format">Extra Qualifications: Committee member of Science society - 2011/2012</br>
+												  Violonist in school orchestra - 2006 - 2010</br>
+												  Prefect in 2008/2009 Guild</td>
+		</tr>
+		<tr>
+			<td id="format">Email: charitha.2015020@iit.ac.lk</td>
+		</tr>
+		<tr>
+			<td id="format">Tel No: 0771597502</td>
+		</tr>
+		
+</table>
+</body>
+</html>
